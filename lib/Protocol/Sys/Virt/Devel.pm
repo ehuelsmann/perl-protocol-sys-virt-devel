@@ -256,7 +256,7 @@ __END__
 
 =head1 NAME
 
-Protocol::Sys::Virt::Devel
+Protocol::Sys::Virt::Devel - Helper module for Protocol::Sys::Virt and dependants
 
 =head1 VERSION
 
