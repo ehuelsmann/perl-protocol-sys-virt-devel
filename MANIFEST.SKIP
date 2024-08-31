@@ -1,0 +1,9 @@
+^.git
+^.plx
+.*~$
+^MYMETA.*
+^MANIFEST.SKIP
+^MANIFEST.bak
+^Makefile$
+^devel/
+^Protocol-Sys-Virt-Devel-
