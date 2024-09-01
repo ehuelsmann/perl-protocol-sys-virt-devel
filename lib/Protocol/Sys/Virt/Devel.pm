@@ -3,7 +3,7 @@ use v5.20;
 use warnings;
 use experimental 'signatures';
 
-package Protocol::Sys::Virt::Devel v0.0.2;
+package Protocol::Sys::Virt::Devel v0.0.3;
 
 use parent 'Exporter';
 our @EXPORT_OK = qw( extract_all );
@@ -260,7 +260,7 @@ Protocol::Sys::Virt::Devel - Helper module for Protocol::Sys::Virt and dependant
 
 =head1 VERSION
 
-0.0.1
+0.0.3
 
 =head1 SYNOPSIS
 

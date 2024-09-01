@@ -1,7 +1,6 @@
 #!perl
 
-requires 'perl' => '5.14.1';
-requires 'Log::Any';
+requires 'perl' => '5.20.0';
 requires 'XDR::Parse' => '0.3.1';
 
 on configure => sub {
