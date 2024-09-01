@@ -2,3 +2,5 @@
 devel/
 **~
 MANIFEST.bak
+MYMETA*
+Makefile
