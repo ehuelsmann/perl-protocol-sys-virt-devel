@@ -1,0 +1,32 @@
+=head1 NAME
+
+Protocol::Sys::Virt::Devel - Development helper for Protocol::Sys::Virt and its dependants
+
+=head1 SYNOPSIS
+
+  use Protocol::Sys::Virt::Devel qw(extract_all);
+
+  my $api_data = extract_all( '../libvirt' );
+
+=head1 DESCRIPTION
+
+This library helps to extract API information from the LibVirt XDR protocol
+definition files as well as the project's C header files.  Using the extracted
+data (constants and structures), the L<Protocol::Sys::Virt> modules can be
+used to communicate with a LibVirt server process.
+
+Note that this module only provides the constants and data structures;
+L<Protocol::Sys::Virt> provides the wire protocol.
+
+=head1 AUTHOR
+
+=over 8
+
+=item * Erik Huelsmann C<< <ehuels@gmail.com> >>
+
+=back
+
+=head1 BUGS AND LIMITATIONS
+
+Please report any bugs L<https://github.com/ehuelsmann/protocol-sys-virt-devel/issues>.
+
